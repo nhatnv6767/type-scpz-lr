@@ -1,3 +1,3 @@
 export function isPositive(n: number) {
-    return n > 0;
+    return n >= 0;
 }
