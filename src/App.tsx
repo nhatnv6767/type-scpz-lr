@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 
 function App() {
-    console.log("Welcome typescript")
+    const channelName: string = "Welcome"
+    console.log(channelName)
     return (
         <div></div>
     );
