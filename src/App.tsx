@@ -2,8 +2,11 @@ import React from 'react';
 import './App.css';
 
 function App() {
-    const channelName: string = "Welcome"
-    console.log(channelName)
+    function sum(a: number, b: number): number {
+        return a + b;
+    }
+
+
     return (
         <div></div>
     );
