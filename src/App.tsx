@@ -6,6 +6,11 @@ function App() {
         return a + b;
     }
 
+    function waitAndDo(callback: (param: string) => void) {
+        setTimeout(() => {
+            callback("Oops!");
+        }, 1000)
+    }
 
     return (
         <div></div>
