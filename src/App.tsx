@@ -6,6 +6,9 @@ function App() {
         return a + b;
     }
 
+    const bigNum: bigint = BigInt(10);
+    console.log(typeof bigNum)
+
     function waitAndDo(callback: (param: string) => void) {
         setTimeout(() => {
             callback("Oops!");
