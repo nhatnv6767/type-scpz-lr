@@ -12,11 +12,13 @@ function App() {
 
     const contacts: Contact[] = [];
 
-    const newContacts: Contact = {
+    const newContact: Contact = {
         name: "Nguyen A A",
         phone: "012333212",
         email: "nothing@gmail.com",
     }
+
+    contacts.push(newContact);
 
     return (
         <div></div>
