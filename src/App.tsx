@@ -6,11 +6,17 @@ function App() {
 
     interface Contact {
         name: string;
-        phone: number;
+        phone: string;
         email: string;
     }
 
     const contacts: Contact[] = [];
+
+    const newContacts: Contact = {
+        name: "Nguyen A A",
+        phone: "012333212",
+        email: "nothing@gmail.com",
+    }
 
     return (
         <div></div>
