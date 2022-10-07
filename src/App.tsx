@@ -18,6 +18,11 @@ function App() {
         email: "nothing@gmail.com",
     }
 
+    const otherContact: Contact = {
+        name: "Nguyen A B",
+        phone: "0123f33212",
+    }
+
     contacts.push(newContact);
 
     return (
