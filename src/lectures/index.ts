@@ -20,5 +20,6 @@ const newContact: Contact = {
 // }
 
 contacts.push(newContact);
-
-send(newContact.email, "1", "2")
+if (newContact.email) {
+    send(newContact.email, "1", "2")
+}
