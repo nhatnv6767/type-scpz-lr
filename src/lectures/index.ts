@@ -1,3 +1,5 @@
+import {send} from "./mailer"
+
 interface Contact {
     name: string;
     phone: string;
@@ -18,3 +20,5 @@ const otherContact: Contact = {
 }
 
 contacts.push(newContact);
+
+send(newContact.email, "1", "2")
