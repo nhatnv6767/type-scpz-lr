@@ -1,9 +1,14 @@
 import {send} from "./mailer"
 
+interface Pet {
+    name: string;
+}
+
 interface Contact {
     name: string;
     phone: string;
     email?: string;
+    pet?: Pet;
 }
 
 const contacts: Contact[] = [];
