@@ -28,3 +28,7 @@ contacts.push(newContact);
 if (newContact.email) {
     send(newContact.email, "1", "2")
 }
+
+function getPetName(contact: Contact): string {
+    return contact.pet?.name;
+}
