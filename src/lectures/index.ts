@@ -41,3 +41,5 @@ function getPetName(contact: Contact): string {
 function getFirstAddress(contact: Contact) {
     return contact.addresses?.[0];
 }
+
+console.log(getFirstAddress(newContact)?.city)
