@@ -30,5 +30,5 @@ if (newContact.email) {
 }
 
 function getPetName(contact: Contact): string {
-    return contact.pet?.name;
+    return contact.pet?.name || "";
 }
