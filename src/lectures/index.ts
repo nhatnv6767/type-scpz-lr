@@ -43,3 +43,9 @@ function getFirstAddress(contact: Contact) {
 }
 
 console.log(getFirstAddress(newContact)?.city)
+
+
+interface Button {
+    label: string;
+    onClick: () => void;
+}
