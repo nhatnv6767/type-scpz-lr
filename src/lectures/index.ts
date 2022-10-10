@@ -49,3 +49,10 @@ interface Button {
     label: string;
     onClick: () => void;
 }
+
+const button: Button = {
+    label: "Submit",
+    onClick: () => {
+        console.log("Click")
+    }
+}
