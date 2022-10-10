@@ -56,3 +56,15 @@ const button: Button = {
         console.log("Click")
     }
 }
+
+interface IconButton extends Button {
+    icon: string;
+}
+
+const addToCartBtn: IconButton = {
+    label: "Add to cart",
+    onClick: () => {
+        console.log("Click");
+    },
+    icon: "cart-icon",
+}
