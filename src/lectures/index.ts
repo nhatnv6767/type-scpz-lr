@@ -68,3 +68,10 @@ const addToCartBtn: IconButton = {
     },
     icon: "cart-icon",
 }
+const addToCartBtn_z: IconButton = {
+    label: "Add to cart",
+    onClick: () => {
+        console.log("Click");
+    },
+    icon: "cart-icon",
+}
