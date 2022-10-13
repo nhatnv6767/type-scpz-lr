@@ -5,4 +5,6 @@ let firstName = "String";
 let lastName: string;
 
 lastName = "Bh none"
-lastName = 30;
+
+// number
+let age = 24;
