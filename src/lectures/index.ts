@@ -24,6 +24,7 @@ isValid = false;
 let k: undefined;
 let m: null;
 
-k = "text";
+
+m = 24;
 // any type
 
