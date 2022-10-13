@@ -25,6 +25,10 @@ let k: undefined;
 let m: null;
 
 
-m = 24;
 // any type
+let anyType: any;
+
+anyType = 24;
+anyType = "string";
+anyType = true;
 
