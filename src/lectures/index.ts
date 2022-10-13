@@ -7,3 +7,5 @@
 
 
 let singer = {name: "Den Vau"};
+
+singer.name = 24;
