@@ -8,4 +8,4 @@
 
 let singer = {name: "Den Vau"};
 
-singer.name = 24;
+singer.name = "string";
