@@ -23,3 +23,7 @@ isValid = false;
 // undefined, null
 let k: undefined;
 let m: null;
+
+k = "text";
+// any type
+
