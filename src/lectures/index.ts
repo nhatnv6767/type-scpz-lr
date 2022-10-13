@@ -12,3 +12,8 @@ lastName = "Bh none"
 let age: number;
 age = 24;
 age = "string".length;
+
+
+// boolean
+
+let isValid = true;
