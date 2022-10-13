@@ -1,6 +1,9 @@
 // Object type
 // @ts-ignore
 
-let singer = {};
+// let singer = {};
+//
+// singer.name = "hello";
 
-singer.name = "hello";
+
+let singer = {name: "Den Vau"};
