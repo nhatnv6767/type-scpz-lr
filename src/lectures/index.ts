@@ -7,4 +7,7 @@ let lastName: string;
 lastName = "Bh none"
 
 // number
-let age = 24;
+// let age = 24;
+
+let age: number;
+age = 24;
