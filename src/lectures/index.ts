@@ -19,3 +19,7 @@ age = "string".length;
 let isValid = true;
 
 isValid = false;
+
+// undefined, null
+let k: undefined;
+let m: null;
