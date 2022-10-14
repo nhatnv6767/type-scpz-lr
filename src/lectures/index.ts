@@ -10,9 +10,12 @@
 //
 // singer.name = "string";
 
-let singer: { name: string, age: number };
+// let singer: { name: string, age: number };
+//
+// // @ts-ignore
+// singer.age = 24;
+// // @ts-ignore
+// singer.name = "bhnone"
 
-// @ts-ignore
-singer.age = 24;
-// @ts-ignore
-singer.name = "bhnone"
+
+let actor: { name: string, age: number } = {name: "Tome", age: 55}
