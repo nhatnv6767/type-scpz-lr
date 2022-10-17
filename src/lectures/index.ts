@@ -21,3 +21,5 @@
 // let actor: { name: string, age?: number } = {name: "Tome"}
 
 let array = [];
+array.push(3);
+array.push("string");
