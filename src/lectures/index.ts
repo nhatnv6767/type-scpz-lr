@@ -18,4 +18,4 @@
 // singer.name = "bhnone"
 
 
-let actor: { name: string, age: number } = {name: "Tome", age: 55}
+let actor: { name: string, age?: number } = {name: "Tome"}
