@@ -18,4 +18,6 @@
 // singer.name = "bhnone"
 
 
-let actor: { name: string, age?: number } = {name: "Tome"}
+// let actor: { name: string, age?: number } = {name: "Tome"}
+
+let array = [];
