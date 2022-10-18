@@ -20,7 +20,10 @@
 
 // let actor: { name: string, age?: number } = {name: "Tome"}
 
-let array = [];
-array.push(3);
-array.push("string");
-array.push({name: "string", age: 24});
+// let array = [];
+// array.push(3);
+// array.push("string");
+// array.push({name: "string", age: 24});
+
+// string array
+let array2 = ["a", 'b', 'c'];
