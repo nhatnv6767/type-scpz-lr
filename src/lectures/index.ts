@@ -23,3 +23,4 @@
 let array = [];
 array.push(3);
 array.push("string");
+array.push({name: "string", age: 24});
