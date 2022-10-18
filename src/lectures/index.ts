@@ -27,3 +27,13 @@
 
 // string array
 let array2 = ["a", 'b', 'c'];
+
+// boolean array
+
+let array3: boolean[];
+// @ts-ignore
+array3.push(false);
+
+let blogs: { title: string, body: string }[]
+// @ts-ignore
+blogs.push({body: "", title: ""});
