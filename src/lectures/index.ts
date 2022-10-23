@@ -26,14 +26,22 @@
 // array.push({name: "string", age: 24});
 
 // string array
-let array2 = ["a", 'b', 'c'];
+// let array2 = ["a", 'b', 'c'];
+//
+// // boolean array
+//
+// let array3: boolean[];
+// // @ts-ignore
+// array3.push(false);
+//
+// let blogs: { title: string, body: string }[]
+// // @ts-ignore
+// blogs.push({body: "", title: ""});
 
-// boolean array
 
-let array3: boolean[];
-// @ts-ignore
-array3.push(false);
+// FUNCTION
 
-let blogs: { title: string, body: string }[]
-// @ts-ignore
-blogs.push({body: "", title: ""});
+// function return value
+
+
+// function not return value
