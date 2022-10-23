@@ -60,3 +60,7 @@ const sum3: functionType = (num1, num2) => {
 
 
 // function not return value
+
+const hello = (): void => {
+    console.log("Hello")
+}
