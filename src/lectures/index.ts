@@ -42,6 +42,11 @@
 // FUNCTION
 
 // function return value
+const sum = (num1, num2) => {
+    return num1 + num2;
+}
+
+sum("low", "bee")
 
 
 // function not return value
