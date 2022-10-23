@@ -52,5 +52,11 @@ const sum2 = (num1: number, num2: number) => {
     return num1 + num2;
 }
 
+type functionType = (number1: number, number2: number) => number;
+
+const sum3: functionType = (num1, num2) => {
+    return num1 + num2;
+}
+
 
 // function not return value
