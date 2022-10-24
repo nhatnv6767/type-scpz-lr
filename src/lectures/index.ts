@@ -70,6 +70,8 @@ const hello = (): void => {
 let size: string | number;
 size = "XL"
 size = 30;
-size = true;
+// size = true;
+
+let size1: string | string[];
 
 // enum
