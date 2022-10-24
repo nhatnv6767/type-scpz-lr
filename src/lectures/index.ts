@@ -64,3 +64,10 @@ const sum3: functionType = (num1, num2) => {
 const hello = (): void => {
     console.log("Hello")
 }
+
+
+// Union
+let size: string | number;
+size = "XL"
+
+// enum
