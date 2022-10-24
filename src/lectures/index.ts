@@ -69,5 +69,7 @@ const hello = (): void => {
 // Union
 let size: string | number;
 size = "XL"
+size = 30;
+size = true;
 
 // enum
