@@ -75,3 +75,11 @@ size = 30;
 let size1: string | string[];
 
 // enum
+
+enum Colors {
+    RED,
+    BLUE,
+    GREEN,
+}
+
+let color = Colors.GREEN
