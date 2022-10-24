@@ -77,9 +77,9 @@ let size1: string | string[];
 // enum
 
 enum Colors {
-    RED,
-    BLUE,
-    GREEN,
+    RED = "RED",
+    BLUE = "BLUE",
+    GREEN = "GREEN",
 }
 
 let color = Colors.GREEN
