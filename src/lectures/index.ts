@@ -91,3 +91,10 @@ let actor: { name: string, age: number };
 let singer: { name: string, age: number };
 
 
+interface IPerson {
+    name: string
+    age: number
+}
+
+let exActor: IPerson;
+let exSinger: IPerson;
