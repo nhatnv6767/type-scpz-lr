@@ -83,3 +83,11 @@ enum Colors {
 }
 
 let color = Colors.GREEN
+
+// interface type
+
+let actor: { name: string, age: number };
+
+let singer: { name: string, age: number };
+
+
