@@ -107,4 +107,4 @@ const hello_ge = <Type>(a: Type) => {
     return 3;
 }
 
-hello_ge<number>(4)
+hello_ge<string>("string")
