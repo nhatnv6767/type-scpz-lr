@@ -98,3 +98,11 @@ interface IPerson {
 
 let exActor: IPerson;
 let exSinger: IPerson;
+
+
+// GENERIC TYPE
+
+const hello_ge = (a: any) => {
+    console.log(a)
+    return 3;
+}
