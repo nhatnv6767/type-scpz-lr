@@ -106,3 +106,5 @@ const hello_ge = <Type>(a: Type) => {
     console.log(a)
     return 3;
 }
+
+hello_ge<number>(4)
