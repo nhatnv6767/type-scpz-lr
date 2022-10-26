@@ -102,7 +102,7 @@ let exSinger: IPerson;
 
 // GENERIC TYPE
 
-const hello_ge = <T>(a) => {
+const hello_ge = <Type>(a) => {
     console.log(a)
     return 3;
 }
