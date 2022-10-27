@@ -149,18 +149,30 @@ hello_ge<string>("string")
 
 
 // read only
+//
+// class Car {
+//     readonly name: string
+//     year: number
+//
+//     constructor(name: string, year: number) {
+//         this.name = name;
+//         this.year = year;
+//     }
+//
+// }
+//
+// let car1 = new Car("Audi", 2021);
+
+// car1.name = "Mercedes";
+
+
+// short class
 
 class Car {
-    readonly name: string
-    year: number
 
-    constructor(name: string, year: number) {
-        this.name = name;
-        this.year = year;
+    constructor(public name: string, readonly year: number) {
+
     }
 
 }
 
-let car1 = new Car("Audi", 2021);
-
-car1.name = "Mercedes";
