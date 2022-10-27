@@ -108,3 +108,16 @@ const hello_ge = <Type>(a: Type) => {
 }
 
 hello_ge<string>("string")
+
+
+// Class
+
+class Car {
+    name: string
+    year: number
+
+    constructor(name: string, year: number) {
+        this.name = name;
+        this.year = year;
+    }
+}
