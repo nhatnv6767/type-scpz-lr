@@ -131,9 +131,28 @@ hello_ge<string>("string")
 // private
 
 
+// class Car {
+//     name: string
+//     private year: number
+//
+//     constructor(name: string, year: number) {
+//         this.name = name;
+//         this.year = year;
+//     }
+//
+// }
+//
+// let car1 = new Car("Audi", 2021);
+//
+// car1.name = "Mercedes";
+// car1.year
+
+
+// read only
+
 class Car {
-    name: string
-    private year: number
+    readonly name: string
+    year: number
 
     constructor(name: string, year: number) {
         this.name = name;
@@ -145,4 +164,3 @@ class Car {
 let car1 = new Car("Audi", 2021);
 
 car1.name = "Mercedes";
-// car1.year
