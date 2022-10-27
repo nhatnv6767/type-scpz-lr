@@ -120,4 +120,9 @@ class Car {
         this.name = name;
         this.year = year;
     }
+
 }
+
+let car1 = new Car("Audi", 2021);
+
+car1.name = "Mercedes";
